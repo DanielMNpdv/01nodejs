@@ -1,0 +1,37 @@
+npm init --yes
+
+//Instalar Typescript como modulo
+npm install typescript -D
+
+//Crear el ts.config
+npx tsc --init (si no lo tienes instalado)
+
+//En el tsconfig poner para que excluya el node_modules
+"exclude": [
+    "node_modules"
+  ]
+
+//Y cambiar es5 por es6 y en outdir la carpeta que quieras 
+
+//en el git ignore poner el nombre de la carpeta a ignorar
+
+//Instalar mongoose
+npm install mongoose
+
+//Instalar esto para que reconozca los tipos de mongoose
+npm install @types/mongoose
+
+//Crear carpeta src, y dentro de ella crear el index.ts
+
+//compilar con npx
+npx tsc -w
+
+//Ejecutar con:
+node dist/index
+
+//si da fallo al subir al github tienes que borrar las credenciales de github
+
+//para importar:
+import { leerteclado } from '../ruta.......'
+let nombre: string 
+
