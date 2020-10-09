@@ -55,7 +55,7 @@ git init
 
 git add .
 
-git commit -m "first commit"
+git commit -m "Mensaje"
 
 git remote add origin https://github.com/DanielMNpdv/01nodejs.git (solo la primera vez)
 
