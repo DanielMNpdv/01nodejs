@@ -55,7 +55,7 @@ git init
 
 git add .
 
-git commit -m "Readme"
+git commit -m "Readme2"
 
 git remote add origin https://github.com/DanielMNpdv/01nodejs.git (solo la primera vez)
 
@@ -71,3 +71,5 @@ git config --global user.name "Your Name"
 #############################################################################################################################################
 
 #############################EXPLICACIÓN DEL PROYECTO#########################################
+
+asjkfhjkksdf
